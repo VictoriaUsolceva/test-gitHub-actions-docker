@@ -6,7 +6,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   const config = new DocumentBuilder()
-    .setTitle('Quotes API')
+    .setTitle('QuotesAPI')
     .setContact(
       'Yandex Practicum (Repostiory)',
       'https://github.com/yandex-praktikum/nestjs-quotes-api',
